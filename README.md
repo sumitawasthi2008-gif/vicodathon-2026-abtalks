@@ -1,21 +1,40 @@
-<<<<<<< HEAD
-# React + Vite
+# ABTalks Redesign
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern mobile-first redesign of the ABTalks 60-Day Coding Challenge platform built for ViCodathon 2026.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive Landing Page
+- Student Dashboard
+- Challenge Day Page
+- Modern Card UI
+- Mobile First Design
+- Clean Dashboard
+- Progress Tracking
+- Responsive Layout
 
-## React Compiler
+## Routes
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+/
+    
+/dashboard
 
-## Expanding the ESLint configuration
+/day/12
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# vicodathon-2026-abtalks
-ViCodathon 2026 Hackathon Project
->>>>>>> e49fb6e27f55b19fc635d15375d4edc8e744b7c6
+## Tech Stack
+
+- React
+- Vite
+- CSS3
+- React Router
+
+## Installation
+
+```bash
+npm install
+npm run dev
+```
+
+## Author
+
+Sumit Awasthi
