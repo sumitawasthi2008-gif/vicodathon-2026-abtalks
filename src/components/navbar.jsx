@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <nav className="navbar">
-      <h2 className="logo">ABTalks</h2>
+      <h2 className="logo">🚀 ABTalks</h2>
 
       <button className="join-btn">
         Join Challenge
