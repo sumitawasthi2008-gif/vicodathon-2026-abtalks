@@ -1,41 +1,64 @@
-# ABTalks Redesign - ViCodathon 2026
+# 🚀 ABTalks Redesign – ViCodathon 2026
 
-A modern mobile-first redesign of the ABTalks platform built for the ViCodathon 2026 Hackathon.
+A modern, mobile-first redesign of the ABTalks platform created for **ViCodathon 2026**.
 
-## 🚀 Features
+## 📌 Overview
 
-- Modern Landing Page
-- Student Dashboard
-- Challenge Day Page
-- Mobile-First Responsive Design
-- Progress Tracking
-- Clean UI
-- React Router Navigation
+This project redesigns the ABTalks coding challenge platform with a clean and responsive interface. It includes a landing page, student dashboard, and challenge page to improve the student experience.
 
-## 📱 Routes
+## ✨ Features
 
-/
-/dashboard
-/day/12
+- 📱 Mobile First Responsive Design
+- 🏠 Modern Landing Page
+- 📊 Student Dashboard
+- 📅 Challenge Day Page
+- 📈 Progress Tracking
+- 🏆 Badges & Leaderboard
+- ⚡ React Router Navigation
+- 🎨 Clean UI
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
 - React
 - Vite
-- React Router
+- React Router DOM
 - CSS3
 
-## 📦 Installation
+## 📂 Routes
+
+| Route | Description |
+|--------|-------------|
+| `/` | Landing Page |
+| `/dashboard` | Student Dashboard |
+| `/day/12` | Challenge Day |
+
+## 🚀 Installation
 
 ```bash
 npm install
 npm run dev
 ```
 
-## 👨‍💻 Developed By
+## 📸 Project Screenshots
 
-Sumit Awasthi
+### Landing Page
 
-## 📸 Screenshots
+![Landing](public/screenshots/landing.png)
 
-(Add screenshots here if required)
+### Dashboard
+
+![Dashboard](public/screenshots/dashboard.png)
+
+### Challenge Page
+
+![Challenge](public/screenshots/challenge.png)
+
+## 🤖 AI Usage
+
+This project was developed using AI-assisted development with ChatGPT.
+
+## 👨‍💻 Author
+
+**Sumit Awasthi**
+
+Built for **ViCodathon 2026**
