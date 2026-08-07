@@ -1,6 +1,7 @@
 import Navbar from "../components/navbar";
 import Hero from "../components/hero";
 import Stats from "../components/stats";
+import Features from "../components/features";
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
       <Navbar />
       <Hero />
       <Stats />
+      <Features />
     </>
   );
 }
