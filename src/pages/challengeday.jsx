@@ -24,9 +24,9 @@ function ChallengeDay() {
 
         <div className="submit-buttons">
 
-          <button>GitHub Repository</button>
+          <button>Submit GitHub Repository</button>
 
-          <button>LinkedIn Post</button>
+          <button>Submit LinkedIn Post</button>
 
         </div>
 

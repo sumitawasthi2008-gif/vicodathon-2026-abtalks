@@ -16,10 +16,18 @@ function Dashboard() {
           <p>Build a Responsive Landing Page</p>
         </div>
 
-        <div className="card">
-          <h3>📊 Overall Progress</h3>
-          <p>42%</p>
-        </div>
+        <h3>📊 Overall Progress</h3>
+
+<p>42%</p>
+
+<div className="progress">
+
+<div
+className="progress-fill"
+style={{width:"42%"}}
+></div>
+
+</div>
 
         <div className="card">
           <h3>🏆 Badges</h3>

@@ -4,6 +4,7 @@ import Stats from "../components/stats";
 import Features from "../components/features";
 import HowItWorks from "../components/howitworks";
 import CTA from "../components/cta";
+import Footer from "../components/footer";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
 <Features />
 <HowItWorks />
 <CTA />
+<Footer />
     </>
   );
 }
