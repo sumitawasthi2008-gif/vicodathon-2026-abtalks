@@ -164,3 +164,89 @@ grid-template-columns:1fr;
 }
 
 }
+.how{
+padding:70px 20px;
+text-align:center;
+}
+
+.how h2{
+font-size:34px;
+margin-bottom:35px;
+}
+
+.how-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+max-width:1000px;
+margin:auto;
+}
+
+.how-card{
+background:white;
+padding:30px;
+border-radius:18px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.how-card span{
+display:inline-block;
+width:55px;
+height:55px;
+line-height:55px;
+border-radius:50%;
+background:#2563eb;
+color:white;
+font-weight:bold;
+margin-bottom:15px;
+}
+
+.how-card p{
+margin-top:10px;
+color:#666;
+}
+
+.cta{
+margin:80px auto;
+padding:70px 20px;
+background:#2563eb;
+color:white;
+text-align:center;
+border-radius:25px;
+max-width:1100px;
+}
+
+.cta h2{
+font-size:36px;
+margin-bottom:15px;
+}
+
+.cta p{
+margin-bottom:30px;
+}
+
+.cta button{
+padding:14px 30px;
+border:none;
+border-radius:12px;
+background:white;
+color:#2563eb;
+font-weight:bold;
+cursor:pointer;
+}
+
+@media(max-width:768px){
+
+.how-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.cta h2{
+
+font-size:28px;
+
+}
+
+}
