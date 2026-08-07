@@ -1,40 +1,41 @@
-# ABTalks Redesign
+# ABTalks Redesign - ViCodathon 2026
 
-A modern mobile-first redesign of the ABTalks 60-Day Coding Challenge platform built for ViCodathon 2026.
+A modern mobile-first redesign of the ABTalks platform built for the ViCodathon 2026 Hackathon.
 
-## Features
+## 🚀 Features
 
-- Responsive Landing Page
+- Modern Landing Page
 - Student Dashboard
 - Challenge Day Page
-- Modern Card UI
-- Mobile First Design
-- Clean Dashboard
+- Mobile-First Responsive Design
 - Progress Tracking
-- Responsive Layout
+- Clean UI
+- React Router Navigation
 
-## Routes
+## 📱 Routes
 
 /
-    
 /dashboard
-
 /day/12
 
-## Tech Stack
+## 🛠 Tech Stack
 
 - React
 - Vite
-- CSS3
 - React Router
+- CSS3
 
-## Installation
+## 📦 Installation
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Author
+## 👨‍💻 Developed By
 
 Sumit Awasthi
+
+## 📸 Screenshots
+
+(Add screenshots here if required)
