@@ -1,3 +1,4 @@
+
 import Navbar from "../components/navbar";
 import Hero from "../components/hero";
 import Stats from "../components/stats";
@@ -7,15 +8,18 @@ import CTA from "../components/cta";
 import Footer from "../components/footer";
 
 function Home() {
+
+
+
   return (
     <>
-<Navbar />
-<Hero />
-<Stats />
-<Features />
-<HowItWorks />
-<CTA />
-<Footer />
+      <Navbar />
+      <Hero />
+      <Stats />
+      <Features />
+      <HowItWorks />
+      <CTA />
+      <Footer />
     </>
   );
 }

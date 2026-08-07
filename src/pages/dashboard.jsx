@@ -1,7 +1,10 @@
+import { useNavigate } from "react-router-dom";
+
 function Dashboard() {
+  const navigate = useNavigate();
+
   return (
     <div className="dashboard">
-
       <h1>👋 Welcome, Sumit</h1>
 
       <div className="dashboard-grid">
@@ -14,20 +17,26 @@ function Dashboard() {
         <div className="card">
           <h3>📅 Today's Task</h3>
           <p>Build a Responsive Landing Page</p>
+
+          <button
+            className="primary-btn"
+            onClick={() => navigate("/day/12")}
+          >
+            Open Today's Challenge
+          </button>
         </div>
 
-        <h3>📊 Overall Progress</h3>
+        <div className="card">
+          <h3>📊 Overall Progress</h3>
+          <p>42%</p>
 
-<p>42%</p>
-
-<div className="progress">
-
-<div
-className="progress-fill"
-style={{width:"42%"}}
-></div>
-
-</div>
+          <div className="progress">
+            <div
+              className="progress-fill"
+              style={{ width: "42%" }}
+            ></div>
+          </div>
+        </div>
 
         <div className="card">
           <h3>🏆 Badges</h3>
@@ -45,7 +54,6 @@ style={{width:"42%"}}
         </div>
 
       </div>
-
     </div>
   );
 }

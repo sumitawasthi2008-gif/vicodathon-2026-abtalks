@@ -1,11 +1,13 @@
+import { useNavigate } from "react-router-dom";
+
 function ChallengeDay() {
+  const navigate = useNavigate();
+
   return (
     <div className="challenge-page">
-
       <h1>📅 Day 12 Challenge</h1>
 
       <div className="challenge-card">
-
         <h2>Build a Responsive Landing Page</h2>
 
         <p>
@@ -22,16 +24,35 @@ function ChallengeDay() {
           <li>✅ LinkedIn Post</li>
         </ul>
 
+        <h3>GitHub Repository URL</h3>
+
+        <input
+          type="text"
+          placeholder="Paste your GitHub Repository URL"
+        />
+
+        <h3>LinkedIn Post URL</h3>
+
+        <input
+          type="text"
+          placeholder="Paste your LinkedIn Post URL"
+        />
+
         <div className="submit-buttons">
 
-          <button>Submit GitHub Repository</button>
+          <button>
+            Submit Project
+          </button>
 
-          <button>Submit LinkedIn Post</button>
+          <button
+            onClick={() => navigate("/dashboard")}
+          >
+            ← Back to Dashboard
+          </button>
 
         </div>
 
       </div>
-
     </div>
   );
 }
